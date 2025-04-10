@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const rainaudio = document.getElementById('rainaudio');
     const music = document.getElementById('music');
 
+    document.addEventListener('click', function() {
     rainaudio.play();
     music.play();
+    });
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();

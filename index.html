@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> my bday twin </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/noq1lqg.css">
+    <link rel="stylesheet" href="https://use.typekit.net/noq1lqg.css">
+</head>
+<body>
+    <img id = "bg" draggable = "false" src = "assets/wallpaper.jpg">
+    <div id = "rain"> </div>
+    <audio id = "rainaudio" src = "assets/rain.m4a" loop></audio>
+    <audio id = "music" src = "assets/music.m4a" loop></audio>
+
+    <div class = "container">
+        <img id = "gif1" draggable = "false" src = "assets/divider.webp">
+        <img id = "gif2" draggable = "false" src = "assets/divider.webp">
+        
+        <div id = "prompt">
+            <h2> My Birthday Twin </h2>
+            <p> Please enter your birthday. </p>
+            <div id = "input-container">
+                <form autocomplete="off">
+                    <input type = "text"
+                    id = "userbday"
+                    placeholder = "MM/DD">
+                    <img id = "send" draggable = "false" src = "https://dodo.ac/np/images/2/2a/Squeakoid_%28White%29_NH_Icon.png"> 
+                </form>
+            </div>
+            <div id = "gif-container">
+                <img draggable = "false" src = 
+                "https://dodo.ac/np/images/8/8c/K.K._Slider_DnM_Model.gif">
+            </div>
+        </div>
+
+            <img id = "greetingmsg" draggable = "false" src = "assets/greeting.gif">
+
+        <div id = "errordiv">
+            <img id = "errormsg" draggable = "false" src = "assets/errormsg.gif">
+        </div>
+
+        <div id = "result">
+            
+            <img id = "villagerimg" draggable = "false" src = "">
+            <div id = "info">
+                <h2 id = "name"> </h2>
+                <p id = "species" class = "info-text"> </p>
+                <p id = "personality" class = "info-text"> </p>
+                <p id = "hobby" class = "info-text"> </p>
+                <p id = "saying"> </p>
+            </div>
+            <div id = "return">
+                <img id = "returnimg" draggable = "false" src = "">
+                <img id = "returnmsg" draggable = "false" src = "assets/returnmsg.png">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
